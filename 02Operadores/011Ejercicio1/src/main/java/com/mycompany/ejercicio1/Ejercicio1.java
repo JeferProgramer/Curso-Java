@@ -2,17 +2,13 @@ package com.mycompany.ejercicio1;
 
 import java.util.Scanner;
 
-/**
- *
- * @author alemr
- */
 public class Ejercicio1 {
 
     //Crea un programa que calcule la suma de 3 calificaciones
     public static void main(String[] args) {
         //Instancia Scanner
         Scanner entrada = new Scanner(System.in);
-        
+        //puedo declarar muchas variables del mismo tipo con , 
         float num1,num2,num3, suma;
 
         System.out.println("Ingrese un numero");
