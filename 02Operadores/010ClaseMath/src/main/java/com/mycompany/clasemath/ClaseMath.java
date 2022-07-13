@@ -1,11 +1,6 @@
 package com.mycompany.clasemath;
 
-/**
- *
- * @author alemr
- */
 public class ClaseMath {
-
 
     public static void main(String[] args) {
         double raiz, base, exp, res, rand;
