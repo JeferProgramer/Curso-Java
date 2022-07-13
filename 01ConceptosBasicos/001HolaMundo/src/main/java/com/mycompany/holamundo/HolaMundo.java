@@ -3,10 +3,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
 package com.mycompany.holamundo;
-/**
- *
- * @author alemr
- */
+
 public class HolaMundo {
     /**
      * @param args the command line arguments

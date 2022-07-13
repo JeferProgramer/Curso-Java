@@ -1,9 +1,6 @@
 package com.mycompany.datosnoprimitivos;
 
-/**
- *
- * @author alemr
- */
+
 public class DatosNoPrimitivos {
 
     public static void main(String[] args) {

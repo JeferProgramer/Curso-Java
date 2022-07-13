@@ -1,9 +1,6 @@
 package com.mycompany.datosprimitovs;
 
-/**
- *
- * @author alemr
- */
+
 public class DatosPrimitivos {
 
     public static void main(String[] args) {
