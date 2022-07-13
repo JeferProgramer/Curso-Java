@@ -7,7 +7,7 @@ package com.mycompany.datosprimitovs;
 public class DatosPrimitivos {
 
     public static void main(String[] args) {
-        //Los tipos de datos primitivos enteros son
+        //Los siguientes son los tipos de datos primitivos enteros son
         byte chiquito;
         short mediano;
         int entero;
