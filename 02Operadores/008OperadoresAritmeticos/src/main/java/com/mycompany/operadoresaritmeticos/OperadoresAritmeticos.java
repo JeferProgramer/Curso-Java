@@ -10,6 +10,7 @@ public class OperadoresAritmeticos {
         int num = 10;
         
         //Adicion de suma
+        //num = num + 5  || 10 = 10+5 ||num : 15
         num += 5;
         System.out.println(num);
         //Adicion de resta
