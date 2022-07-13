@@ -1,9 +1,5 @@
 package com.mycompany.constantes;
 
-/**
- *
- * @author alemr
- */
 public class Constantes {
 
     public static void main(String[] args) {

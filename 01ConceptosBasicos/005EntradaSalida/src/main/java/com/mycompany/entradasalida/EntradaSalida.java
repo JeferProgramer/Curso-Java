@@ -3,10 +3,6 @@ package com.mycompany.entradasalida;
 //Se importa la clase Scanner
 import java.util.Scanner;
 
-/**
- *
- * @author alemr
- */
 public class EntradaSalida {
 
     public static void main(String[] args) {
@@ -25,6 +21,7 @@ public class EntradaSalida {
         */
         System.out.println("Ingrese su nombre: ");
         //Textos
+        //aca me guardo en la varible lo que ingrese el usuario nextLine() es para strings
         nombre = entrada.nextLine();
         System.out.println("Ingrese su edad");
         //Flotantes
