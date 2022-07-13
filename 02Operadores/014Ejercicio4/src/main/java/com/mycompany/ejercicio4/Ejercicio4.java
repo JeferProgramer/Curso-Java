@@ -29,7 +29,7 @@ public class Ejercicio4 {
         System.out.println("Ingrese el costo de los carros");
         //me guardo el coste
         costcar = entrada.nextFloat();
-        //(3 * 150) + (500 * 3 * 0.05f) + 1000 =
+        //(3 * 150) + (500 * 3 * 0.05f) + 1000 
         salfin = (numcar * 150) + (costcar * numcar * 0.05f) + salmen;
         
         System.out.println("El salario final de Fulano es: $"+salfin);    
