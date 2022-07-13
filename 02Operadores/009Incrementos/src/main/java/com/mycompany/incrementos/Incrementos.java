@@ -4,10 +4,6 @@
  */
 package com.mycompany.incrementos;
 
-/**
- *
- * @author alemr
- */
 public class Incrementos {
 
     /**
@@ -16,7 +12,8 @@ public class Incrementos {
     public static void main(String[] args) {
         int x = 10;
         
-        //Incremento en 1
+        //Incremento en 1 
+        //10 + 1 = 11
         x++;
         System.out.println(x);
         
