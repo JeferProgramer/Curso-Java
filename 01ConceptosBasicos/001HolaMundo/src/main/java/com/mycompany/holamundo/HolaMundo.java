@@ -19,7 +19,7 @@ public class HolaMundo {
             Este comentario es de
             multiples lineas
         */
-        
+        //para imprimir en consola en java
         System.out.println("Hola mucho gusto este es un saludo \nde Hola mundo");
         System.out.println("Escribiendo sout y tab se escribe facil esta linea");
     }
