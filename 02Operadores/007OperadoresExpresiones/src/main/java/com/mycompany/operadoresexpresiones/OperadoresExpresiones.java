@@ -2,10 +2,6 @@ package com.mycompany.operadoresexpresiones;
 
 import java.util.Scanner;
 
-/**
- *
- * @author alemr
- */
 public class OperadoresExpresiones {
 
     public static void main(String[] args){
@@ -16,7 +12,7 @@ public class OperadoresExpresiones {
         System.out.println("Digite 2 numeros");
         num1 = entrada.nextFloat();
         num2 = entrada.nextFloat();
-        
+        // + suma - resta * multiplicar / dividir % modulo
         suma = num1 + num2;
         resta = num1 - num2;
         mult = num1 * num2;
