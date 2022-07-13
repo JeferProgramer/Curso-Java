@@ -3,10 +3,7 @@ package com.mycompany.ejercicio4;
 import java.io.SerializablePermission;
 import java.util.Scanner;
 
-/**
- *
- * @author alemr
- */
+
 public class Ejercicio4 {
 
     /*
@@ -26,24 +23,16 @@ public class Ejercicio4 {
         float costcar, salfin;
                 
         System.out.println("Ingresa cuantoss carros vendio");
+        //me guardo los carros vendidos
         numcar = entrada.nextInt();
         
         System.out.println("Ingrese el costo de los carros");
+        //me guardo el coste
         costcar = entrada.nextFloat();
-        
+        //(3 * 150) + (500 * 3 * 0.05f) + 1000 =
         salfin = (numcar * 150) + (costcar * numcar * 0.05f) + salmen;
         
-        System.out.println("El salario final de Fulano es: $"+salfin);
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
+        System.out.println("El salario final de Fulano es: $"+salfin);    
     }
     
 }
