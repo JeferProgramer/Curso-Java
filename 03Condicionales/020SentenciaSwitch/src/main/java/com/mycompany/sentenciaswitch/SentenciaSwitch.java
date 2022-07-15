@@ -2,10 +2,7 @@ package com.mycompany.sentenciaswitch;
 
 import javax.swing.JOptionPane;
 
-/**
- *
- * @author alemr
- */
+
 public class SentenciaSwitch {
 
 
