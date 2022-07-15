@@ -2,10 +2,6 @@ package com.mycompany.ejercicio11;
 
 import javax.swing.JOptionPane;
 
-/**
- *
- * @author alemr
- */
 public class Ejercicio11 {
 
     /*
@@ -22,13 +18,15 @@ public class Ejercicio11 {
         Para especificar la opercion a realizar
     */
     public static void main(String[] args) {
+        //inizialiso variables
         char opcion;
         float numero1, numero2, resultado =0;
         
-        
+        //capturo los datos y los convierto
         numero1 = Integer.parseInt(JOptionPane.showInputDialog("Ingrese un numero: "));
         numero2 = Integer.parseInt(JOptionPane.showInputDialog("Ingrese un numero: "));
         opcion = JOptionPane.showInputDialog("Ingrese la opcion para operar los numeros: Suma, Resta, Multiplicacion, Division").charAt(0);
+        //char at para capturar el primer caracter
         
         if(opcion == 's' || opcion == 'S')
         {
