@@ -17,5 +17,4 @@ public class Ejercicio1 {
         //mando mensaje al usuario
         JOptionPane.showMessageDialog(null,(numero % 10 == 0) ? "Es multiplo de 10" :"No es multiplo de 10" )        
     }
-    
 }
