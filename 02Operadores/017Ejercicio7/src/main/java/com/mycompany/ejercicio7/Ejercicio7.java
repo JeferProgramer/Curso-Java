@@ -2,10 +2,6 @@ package com.mycompany.ejercicio7;
 
 import java.util.Scanner;
 
-/**
- *
- * @author alemr
- */
 public class Ejercicio7 {
 
     /*
@@ -24,9 +20,12 @@ public class Ejercicio7 {
         
         //CAntidad de hrs a transformara
         System.out.println("Ingresa el numero de hrs totales: ");
+        // n = 4 
         n = entrada.nextInt();
         
         //Cantidad de semanas
+        // 4/168 esto nos dice la cantidad de semanas dependiendo de las horas dadas
+
         sem = n / 168;
         //Tiempo restante de las semanas
         timeres = n % 168;
