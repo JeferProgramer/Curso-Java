@@ -2,10 +2,6 @@ package com.mycompany.ejercicio12;
 
 import javax.swing.JOptionPane;
 
-/**
- *
- * @author alemr
- */
 public class Ejercicio12 {
 
     /*
@@ -18,8 +14,9 @@ public class Ejercicio12 {
         nota == 10 - Sobresaliente
     */
     public static void main(String[] args) {
+        //declaro variables
         float nota;
-        
+        //capturo y convierto
         nota = Float.parseFloat(JOptionPane.showInputDialog("Ingresa tu calificacion: "));
         
         if(nota>=0 && nota< 7)
@@ -45,8 +42,7 @@ public class Ejercicio12 {
         else
         {
             JOptionPane.showMessageDialog(null, "Nota incorrecta");
-        }
-        
+        }       
     }
     
 }
