@@ -2,10 +2,6 @@ package com.mycompany.ejercicio8;
 
 import javax.swing.JOptionPane;
 
-/**
- *
- * @author alemr
- */
 public class Ejercicio8 {
 
     /*
@@ -13,10 +9,11 @@ public class Ejercicio8 {
         de crifras entre un rango de 0 a 99 999   
     */
     public static void main(String[] args) {
+        //declaro variables
         int numero;
-        
+        //capturo y convierto
         numero = Integer.parseInt(JOptionPane.showInputDialog("Ingrese un numero entre 0 y 99 999: "));
-        
+        // empiezo con las condiciones
        if(numero <10)
        {
            JOptionPane.showMessageDialog(null, "EL numero: "+numero+", tiene 1 cifra");
