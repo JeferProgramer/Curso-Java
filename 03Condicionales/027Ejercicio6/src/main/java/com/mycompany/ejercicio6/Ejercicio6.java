@@ -6,19 +6,16 @@ package com.mycompany.ejercicio6;
 
 import javax.swing.JOptionPane;
 
-/**
- *
- * @author alemr
- */
 public class Ejercicio6 {
     
     //Crea un programa que determine si dos numeros son pares o impares
     public static void main(String[] args) {
+        //decalro variables
         float numero1, numero2;
-        
+        //me guardo las entradas del usuario y combierto a decimales
         numero1 = Float.parseFloat(JOptionPane.showInputDialog("Ingrese un numero"));
         numero2 = Float.parseFloat(JOptionPane.showInputDialog("Ingrese un numero"));
-        
+        //empiezo a preguntas caminos con ifs
         if (numero1 % 2 == 0 && numero2 % 2 == 0)
         {
             JOptionPane.showMessageDialog(null, "Ambos numros son pares");
