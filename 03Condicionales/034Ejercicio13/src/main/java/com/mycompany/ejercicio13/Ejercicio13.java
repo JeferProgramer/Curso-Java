@@ -2,10 +2,6 @@ package com.mycompany.ejercicio13;
 
 import javax.swing.JOptionPane;
 
-/**
- *
- * @author alemr
- */
 public class Ejercicio13 {
 
     /*
