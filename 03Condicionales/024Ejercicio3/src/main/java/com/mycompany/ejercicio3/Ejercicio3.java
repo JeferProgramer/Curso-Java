@@ -14,19 +14,19 @@ public class Ejercicio3 {
         mayuscula
     */
     public static void main(String[] args) {
+        //Declaro variable
         String caracter;
-        
+
+        //guardo lo que ingresa el usuario
         caracter = JOptionPane.showInputDialog("Ingrese una letra");
-        
-        //Tambien puedes usar "Character.isUpperCase(caracter)
-        if (caracter == caracter.toUpperCase())
-        {
+
+        //valido condicion
+        if(caracter == caracter.toUpperCase()){
             JOptionPane.showMessageDialog(null, "Es una letra mayuscula");
+        }else{
+            JOptionPane.showMessageDialog(null, "Es una letras minuscula")
         }
-        else
-        {
-           JOptionPane.showMessageDialog(null, "Es una letra minuscula");
-        }
+
     }
     
 }
