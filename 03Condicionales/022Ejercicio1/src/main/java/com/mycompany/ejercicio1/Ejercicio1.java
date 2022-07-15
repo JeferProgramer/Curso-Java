@@ -2,10 +2,6 @@ package com.mycompany.ejercicio1;
 
 import javax.swing.JOptionPane;
 
-/**
- *
- * @author alemr
- */
 public class Ejercicio1 {
 
     /*
@@ -14,13 +10,12 @@ public class Ejercicio1 {
         multiplo de 10
     */
     public static void main(String[] args) {
-        //Declaracion de variables
+        //Declaro Variables 
         int numero;
-        
-        //Entrada del numeor
+        //me guardo la entrada del usuario
         numero = Integer.parseInt(JOptionPane.showInputDialog("Ingrese un numero"));
-        //Mensaje al usuario
-        JOptionPane.showMessageDialog(null, (numero % 10 == 0) ? "Es multiplo de 10" : "No es multiplo de 10");         
+        //mando mensaje al usuario
+        JOptionPane.showMessageDialog(null,(numero % 10 == 0) ? "Es multiplo de 10" :"No es multiplo de 10" )        
     }
     
 }
