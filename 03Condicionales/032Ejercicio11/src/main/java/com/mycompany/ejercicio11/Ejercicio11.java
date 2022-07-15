@@ -57,8 +57,6 @@ public class Ejercicio11 {
         }
         
         JOptionPane.showMessageDialog(null, "El resultado es: "+resultado);
-        
-        
     }
     
 }
