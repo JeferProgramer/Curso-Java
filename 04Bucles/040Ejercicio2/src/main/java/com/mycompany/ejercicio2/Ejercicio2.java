@@ -2,10 +2,6 @@ package com.mycompany.ejercicio2;
 
 import java.util.Scanner;
 
-/**
- *
- * @author alemr
- */
 public class Ejercicio2 {
 
     /*
@@ -34,7 +30,6 @@ public class Ejercicio2 {
             System.out.println("Ingrese otro numero");
             numero = entrada.nextInt();
         }
-        
         
     }
     
