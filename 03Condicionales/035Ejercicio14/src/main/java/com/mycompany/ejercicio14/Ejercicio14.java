@@ -2,10 +2,6 @@ package com.mycompany.ejercicio14;
 
 import javax.swing.JOptionPane;
 
-/**
- *
- * @author alemr
- */
 public class Ejercicio14 {
 
     /*
@@ -14,9 +10,10 @@ public class Ejercicio14 {
         masa, mostrando las opciones posibles
      */
     public static void main(String[] args) {
+        //declaro variables
         int opcion;
         float masa, resultado =0; 
-        
+        //capturo datos y me los guardo
         masa = Float.parseFloat(JOptionPane.showInputDialog("Ingresa cantidad de masa en Kg: "));
         opcion = Integer.parseInt(JOptionPane.showInputDialog("Ingresa una de las siguientes opciones\n"
                 + "1.Toneladas \n"
@@ -25,7 +22,7 @@ public class Ejercicio14 {
                 + "4.Microgramo\n"
                 + "5.Nanogramo\n"
                 + "6.Picogramo"));
-        
+        //empiezo a buscar opciones
         switch(opcion)
         {
             case 1:
