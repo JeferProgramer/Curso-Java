@@ -8,7 +8,7 @@ public class SentenciaSwitch {
 
     public static void main(String[] args) {
         int dato;
-        dato = Integer.parseInt(JOptionPane.showInputDialog("Ingrese un numero entre 1 y 5"))
+        dato = Integer.parseInt(JOptionPane.showInputDialog("Ingrese un numero entre 1 y 5"));
 
         //con switch son como muchis if donde voy a validar una condicion 
         switch(dato){
@@ -22,7 +22,7 @@ public class SentenciaSwitch {
                 break;
             case 5: JOptionPane.showMessageDialog(null,"Es el numero 5");
                 break;
-            default: JOptionPane.showMessageDialog(null,"No esta en el rando de 1 a 5")
+            default: JOptionPane.showMessageDialog(null,"No esta en el rando de 1 a 5");
 
         }
     }
