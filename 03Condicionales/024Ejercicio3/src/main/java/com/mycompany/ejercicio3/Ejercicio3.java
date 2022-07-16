@@ -21,7 +21,7 @@ public class Ejercicio3 {
         if(caracter == caracter.toUpperCase()){
             JOptionPane.showMessageDialog(null, "Es una letra mayuscula");
         }else{
-            JOptionPane.showMessageDialog(null, "Es una letras minuscula")
+            JOptionPane.showMessageDialog(null, "Es una letras minuscula");
         }
 
     }
