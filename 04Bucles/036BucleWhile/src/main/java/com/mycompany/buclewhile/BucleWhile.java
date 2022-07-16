@@ -2,15 +2,8 @@ package com.mycompany.buclewhile;
 
 import java.util.Scanner;
 
-/**
- *
- * @author alemr
- */
-public class BucleWhile {
 
-    /**
-     * @param args the command line arguments
-     */
+public class BucleWhile {
     public static void main(String[] args) {
         int i, limite;
         Scanner entrada = new Scanner(System.in);
