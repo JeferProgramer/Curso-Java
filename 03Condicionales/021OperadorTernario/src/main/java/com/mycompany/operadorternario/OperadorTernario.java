@@ -12,7 +12,7 @@ public class OperadorTernario {
 
         mensaje = (numero % 2 == 0) ? "Es par" : "Es impar";
 
-        JOptionPane.showMessageDialog(null, mensaje)
+        JOptionPane.showMessageDialog(null, mensaje);
     }
     
 }
