@@ -10,15 +10,13 @@ public class Ejercicio10 {
     */
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
-        int numero, i, suma = 0;
-        
-        for(i = 1; i<=10; i++)
-        {
-            System.out.println("Ingresa un numero: ");
+        int numero, i, suma=0;
+        for(i = 1; i<=10; i++){
+            System.out.println("Ingresa un numero :");
             numero = entrada.nextInt();
-            suma = suma + numero;
+            suma = suma + numero; 
         }
-        System.out.println("La suma final es: "+suma);
+        System.out.println("La suma final es :" +  suma);
     }
     
 }
