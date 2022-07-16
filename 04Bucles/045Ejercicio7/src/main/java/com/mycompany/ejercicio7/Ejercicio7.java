@@ -2,10 +2,6 @@ package com.mycompany.ejercicio7;
 
 import java.util.Scanner;
 
-/**
- *
- * @author alemr
- */
 public class Ejercicio7 {
 
     /*
@@ -16,18 +12,16 @@ public class Ejercicio7 {
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
         int numero, contador, suma = 0;
-        
-        System.out.println("Introduce un numero: ");
+        System.out.println("Introduce un numero :");
         numero = entrada.nextInt();
         contador = 0;
-        while (numero>0)
-        {           
+        while(numero > 0){
             contador++;
             suma = suma + numero;
             System.out.println("Introduce otro numero");
-            numero = entrada.nextInt();            
+            numero = entrada.nextInt();
         }
-        System.out.println("La mecdia de todos los numeros es: "+suma/contador);
+        System.out.println("La media de todos los numeros es : "+ suma/contador);
     }
     
 }
