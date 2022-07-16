@@ -15,15 +15,15 @@ public class Ejercicio2 {
 
         //Entrada de los numeros
         num1 = Float.parseFloat(JOptionPane.showInputDialog("Ingrese un numero"));
-        num2 = float.parseFloat(JOptionPane.showInputDialog("Ingrese un numero"));
+        num2 = Float.parseFloat(JOptionPane.showInputDialog("Ingrese un numero"));
 
         //Condicion principal
         if(num1 > num2){
-            JOptionPane.showMessageDialog(null, num1 + "es el mayor")
+            JOptionPane.showMessageDialog(null, num1 + "es el mayor");
         }else if(num2 > num1){
             JOptionPane.showMessageDialog(null, num2+"es el mayor");
         }else{
-            JOptionPane.showMessageDialog(null,"Los numeros son iguales")
+            JOptionPane.showMessageDialog(null,"Los numeros son iguales");
         }
     }
     
