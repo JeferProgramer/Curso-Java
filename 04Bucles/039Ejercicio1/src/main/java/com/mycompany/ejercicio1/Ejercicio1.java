@@ -2,10 +2,6 @@ package com.mycompany.ejercicio1;
 
 import java.util.Scanner;
 
-/**
- *
- * @author alemr
- */
 public class Ejercicio1 {
 
     /*
@@ -26,6 +22,8 @@ public class Ejercicio1 {
             System.out.println("Ingrese otro numero");
             numero = entrada.nextInt();
         }
+        System.out.println("Numero negativo fin del programa");
+        
         
     }
     
