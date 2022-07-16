@@ -15,6 +15,6 @@ public class Ejercicio1 {
         //me guardo la entrada del usuario
         numero = Integer.parseInt(JOptionPane.showInputDialog("Ingrese un numero"));
         //mando mensaje al usuario
-        JOptionPane.showMessageDialog(null,(numero % 10 == 0) ? "Es multiplo de 10" :"No es multiplo de 10" )        
+        JOptionPane.showMessageDialog(null,(numero % 10 == 0) ? "Es multiplo de 10" :"No es multiplo de 10" );        
     }
 }
