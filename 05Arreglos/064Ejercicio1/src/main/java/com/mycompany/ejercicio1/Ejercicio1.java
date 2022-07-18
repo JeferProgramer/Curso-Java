@@ -1,11 +1,6 @@
 package com.mycompany.ejercicio1;
 
 import java.util.Scanner;
-
-/**
- *
- * @author alemr
- */
 public class Ejercicio1 {
 
     /*
@@ -18,16 +13,13 @@ public class Ejercicio1 {
         Scanner entrada = new Scanner(System.in);
         int[] numeros = new int[5];
         
-        System.out.println("Ingrese los elementos de su arreglo ");
-        for(int i = 0; i<5; i++)
-        {
-            System.out.print("Digite un numero:");
+        System.out.println("Ingrese los elementos de su arreglo");
+        for(int i = 0; i < 5; i++){
+            System.out.println("Digite un numero");
             numeros[i] = entrada.nextInt();
         }
-        
-        for(int i:numeros)
-        {
-            System.out.print(i+" ");
+        for(int i:numeros){
+            System.out.print(i +" ");
         }
     }
     

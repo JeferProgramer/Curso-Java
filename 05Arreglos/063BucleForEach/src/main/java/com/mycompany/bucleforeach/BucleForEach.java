@@ -1,9 +1,6 @@
 package com.mycompany.bucleforeach;
 
-/**
- *
- * @author alemr
- */
+
 public class BucleForEach {
 
     public static void main(String[] args) {
