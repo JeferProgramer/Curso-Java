@@ -19,6 +19,7 @@ public class Ejercicio16 {
         //empiezo a recorrer hasta el numero 10
         for(i = 0; i<=10; i++)
         {
+            //muestro ej numero y lo multiplico por esa i 
             System.out.println(numero+" x "+i+" = "+numero*i);
         }
         
