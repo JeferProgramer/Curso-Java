@@ -2,10 +2,7 @@ package com.mycompany.ejercicio5;
 
 import java.util.Scanner;
 
-/**
- *
- * @author alemr
- */
+
 public class Ejercicio5 {
 
     /*
@@ -26,7 +23,7 @@ public class Ejercicio5 {
         }
         //Rellena el arreglo B
         for (int i = 0; i < 10; i++) {
-            arregloB[i] = i;
+            arregloB[i] = i; 
         }
         
         //Puntero del arreglo C
