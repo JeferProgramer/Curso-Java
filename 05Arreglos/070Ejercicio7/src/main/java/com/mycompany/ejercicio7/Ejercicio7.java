@@ -43,7 +43,7 @@ public class Ejercicio7 {
             System.out.println("El arreglo es desordenado");
         }
         else{
-            System.out.println("Todos los valores osn iguales");
+            System.out.println("Todos los valores son iguales");
         }
         
         
