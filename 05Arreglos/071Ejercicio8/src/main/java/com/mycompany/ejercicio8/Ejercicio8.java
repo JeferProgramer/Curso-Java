@@ -2,10 +2,6 @@ package com.mycompany.ejercicio8;
 
 import java.util.Scanner;
 
-/**
- *
- * @author alemr
- */
 public class Ejercicio8 {
 
     /*
@@ -21,6 +17,7 @@ public class Ejercicio8 {
         int numero, posicion;
         
         System.out.println("Llena el arreglo");
+        //aca empezamos a llenar el arreglo
         for (int i = 0; i < 8; i++) {
             numeros[i] = entrada.nextInt();
         }
