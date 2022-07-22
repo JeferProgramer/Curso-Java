@@ -2,10 +2,6 @@ package com.mycompany.ejercicio15;
 
 import java.util.Scanner;
 
-/**
- *
- * @author alemr
- */
 public class Ejercicio15 {
 
     /*
@@ -17,7 +13,9 @@ public class Ejercicio15 {
         mensaje
     */
     public static void main(String[] args) {
+        //capturo la entrada del usuario
         Scanner entrada = new Scanner(System.in);
+        //declaro variables a utilizar
         int[] arreglo = new int[10];
         int numero;
         boolean creciente = true;
