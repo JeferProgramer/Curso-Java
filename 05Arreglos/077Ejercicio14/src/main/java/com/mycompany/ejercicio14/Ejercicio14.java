@@ -2,10 +2,6 @@ package com.mycompany.ejercicio14;
 
 import java.util.Scanner;
 
-/**
- *
- * @author alemr
- */
 public class Ejercicio14 {
 
     /*
@@ -16,6 +12,7 @@ public class Ejercicio14 {
         tendran que seguir ordenados
     */
     public static void main(String[] args) {
+        //objeto scanner
         Scanner entrada = new Scanner(System.in);
         
         //Variables
@@ -29,18 +26,23 @@ public class Ejercicio14 {
         
         //Zona de llenado de los arreglos
         System.out.println("Llena el primer arreglo: ");
-        do {            
+        //ingreso al do while
+        do { 
+            //empiezo a llenar el ciclo solicitandole al usuario
             for (int i = 0; i < 10; i++) {
                 arregloA[i] = entrada.nextInt();
             }
-            
-            for (int i = 0; i < 9; i++) {
+            //aca recorro lo que ingrese anteror -1 para no salime del arreglo por el i + 1
+            for (int i = 0; i < arregloA.length - 1; i++) {
+                //si el actual es menor al siguiente 
                 if (arregloA[i] < arregloA[i+1]) {
                     creciente = true;
                 }
+                //significa que es menor decreciente
                 if (arregloA[i] > arregloA[i+1])
                 {
                     creciente = false;
+                    //salgo del for y vuelvo a digitar los numeros 
                     break;
                 }
             }
@@ -52,6 +54,7 @@ public class Ejercicio14 {
         } while (creciente == false);
 
         System.out.println("Llena el segundo arreglo: ");
+        //hago lo mismo que en el arregloA pero ahora en el arregloB
         do {            
             for (int i = 0; i < 10; i++) {
                 arregloB[i] = entrada.nextInt();
