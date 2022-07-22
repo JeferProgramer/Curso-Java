@@ -92,6 +92,7 @@ public class Ejercicio14 {
         
         //Integra lo que haya faltado
         if(interadorA == 10) {
+            //y empezo a recorrer lo que me queda del arreglo b y lo fusiono con c
             while(interadorB < 10) {                
                 arregloFusion[interadorC] = arregloB[interadorB];
                 interadorB++;
@@ -99,6 +100,7 @@ public class Ejercicio14 {
             }
         }
         else{
+            //en caso de que sea contrario itero lo que me queda da a y me lo guardo en c
             while(interadorA < 10){
                 arregloFusion[interadorC] = arregloA[interadorA];
                 interadorA++;
