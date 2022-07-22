@@ -2,10 +2,6 @@ package com.mycompany.ejercicio13;
 
 import java.util.Scanner;
 
-/**
- *
- * @author alemr
- */
 public class Ejercicio13 {
 
     /*
