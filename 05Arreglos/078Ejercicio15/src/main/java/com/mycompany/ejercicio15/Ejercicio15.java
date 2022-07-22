@@ -45,6 +45,7 @@ public class Ejercicio15 {
         } while (creciente == false);
         
         System.out.println("Ingrese un numero para buscarlo en el arreglo: ");
+        //capturo 
         numero = entrada.nextInt();
         
         int i = 0;
