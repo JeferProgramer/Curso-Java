@@ -21,37 +21,32 @@ public class Ejercicio16 {
         float[] trimestre1 = new float[5];
         float[] trimestre2 = new float[5];
         float[] trimestre3 = new float[5];
-        float sumaTrimestre1 = 0, sumaTrimestre2 = 0, sumaTrimestre3 = 0, sumaAlumno = 0;
+        float sumaTrimestre1 = 0, sumaTrimestre2 = 0, sumaTrimestre3 = 0, sumaAlmuno = 0;
         int posicion;
-        System.out.println("Ingrese las calificaciones del trimestre 1: ");
-        for (int i = 0; i < 5; i++) {
+        System.out.println("Ingrese las calificaciones del trimestre 1:");
+        for(int i = 0; i < 5; i++){
             trimestre1[i] = entrada.nextFloat();
             sumaTrimestre1 = sumaTrimestre1 + trimestre1[i];
         }
-        
-        System.out.println("Ingrese las calificaciones del trimestre 2: ");
-        for (int i = 0; i < 5; i++) {
+        System.out.println("Ingrese las calificaciones dle trimestre 2:");
+        for(int i = 0; i < 5; i++){
             trimestre2[i] = entrada.nextFloat();
             sumaTrimestre2 = sumaTrimestre2 + trimestre2[i];
         }
-        
-        System.out.println("Ingrese las calificaciones del trimestre 3: ");
-        for (int i = 0; i < 5; i++) {
+        System.out.println("Ingrese las calificaciones dle trimestre 3: ");
+        for(int i = 0; i < 5; i++){
             trimestre3[i] = entrada.nextFloat();
             sumaTrimestre3 = sumaTrimestre3 + trimestre3[i];
         }
-        
-        do {
+        do{
             System.out.println("Ingrese la posicion del alumno para conocer la media: ");
             posicion = entrada.nextInt();
-        } while (posicion<0||posicion>4);
+        }while(posicion < 0 || posicion > 4);
         
-        sumaAlumno = trimestre1[posicion] + trimestre2[posicion] + trimestre3[posicion];
-        
-        System.out.println("La media del primer trimestre es: "+sumaTrimestre1/5);
-        System.out.println("La media del segundo trimestre es: "+sumaTrimestre2/5);
-        System.out.println("La media del tercer trimestre es: "+sumaTrimestre3/5);
-        System.out.println("La media del alumno es: "+sumaAlumno/5);
+        sumaAlmuno = trimestre1[posicion] + trimestre2[posicion] + trimestre3[posicion];
+        System.out.println("La media del primer trimestre es: " + sumaTrimestre1/5);
+        System.out.println("La media del segundo trimestre es: " + sumaTrimestre2/5);
+        System.out.println("La media del tercer trimestre es: " + sumaTrimestre3/5);
+        System.out.println("La media del alumno es: " + sumaAlmuno/5);
     }
-    
 }
