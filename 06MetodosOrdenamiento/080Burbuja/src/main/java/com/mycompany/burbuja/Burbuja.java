@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class Burbuja {
     public static void main(String[] args) {
+        //el metodo burbuja es basicamente recorrer toda la lista del array y organizarlo
         Scanner entrada = new Scanner(System.in);
         int[] arreglo;
         int numeroElementos, memoria;
