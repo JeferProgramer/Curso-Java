@@ -2,12 +2,7 @@ package com.mycompany.burbuja;
 
 import java.util.Scanner;
 
-/**
- *
- * @author alemr
- */
 public class Burbuja {
-
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
         int[] arreglo;
