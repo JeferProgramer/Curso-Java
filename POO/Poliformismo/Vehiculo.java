@@ -17,5 +17,9 @@ public class Vehiculo {
     public String getMarca(){
         return marca;
     }
+    public String getModelo(){
+        return modelo;
+    }
+    
 
 }
