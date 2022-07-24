@@ -3,6 +3,7 @@ public class VehiculoTurismo extends Vehiculo{
     private int nPuertas;
     //creo el constructor
     public VehiculoTurismo(int nPuertas, String matricula, String marca, String modelo){
-        super()
+        super(matricula, marca, modelo);
+        this.nPuertas = nPuertas;
     }
 }
