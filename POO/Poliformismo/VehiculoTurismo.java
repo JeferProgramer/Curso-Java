@@ -6,4 +6,8 @@ public class VehiculoTurismo extends Vehiculo{
         super(matricula, marca, modelo);
         this.nPuertas = nPuertas;
     }
+    public int getnPuertas(){
+        return nPuertas;
+    }
+    @Override
 }
