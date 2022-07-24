@@ -1,3 +1,3 @@
-public class Planta {
+public class Planta extends serVivo {
     
 }
