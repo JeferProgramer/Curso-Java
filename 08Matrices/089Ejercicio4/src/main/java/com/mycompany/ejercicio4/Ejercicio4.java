@@ -1,9 +1,5 @@
 package com.mycompany.ejercicio4;
 
-/**
- *
- * @author alemr
- */
 public class Ejercicio4 {
 
     /*
