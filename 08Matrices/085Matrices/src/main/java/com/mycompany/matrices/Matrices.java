@@ -3,10 +3,6 @@ package com.mycompany.matrices;
 import java.util.Scanner;
 import javax.swing.JOptionPane;
 
-/**
- *
- * @author alemr
- */
 public class Matrices {
 
     /**
