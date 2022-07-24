@@ -1,14 +1,13 @@
 package com.mycompany.seleccion;
 
 import java.util.Scanner;
-
-
 public class Seleccion {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        //declaro scanner y variables
         Scanner entrada = new Scanner(System.in);
         int[] arreglo;
         int numeroElementos, numeroMenor, memoria;
