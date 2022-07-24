@@ -16,12 +16,14 @@ public class Seleccion {
         numeroElementos = entrada.nextInt();
         //inicializo el array dependiendo de lo que escriba el usuario
         arreglo = new int[numeroElementos];
-        
+        //le pido que ingrese los datos
         System.out.println("Ingrese los datos del arreglo: ");
         for (int i = 0; i < numeroElementos; i++) {
             arreglo[i] = entrada.nextInt();
         }
-        
+        //[1,2,3,4]
+        //     |
+        // i = 2 numeroElementos = 3 numeroMenor = 2 j = 3, memoria = 3, 
         //Seleccion
         for (int i = 0; i < numeroElementos; i++) { //Puntero del arreglo a checar
             numeroMenor = i;    //Supone como menor el que esta en esa posicion
