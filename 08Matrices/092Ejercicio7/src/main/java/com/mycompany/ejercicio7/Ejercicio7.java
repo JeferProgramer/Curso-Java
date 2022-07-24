@@ -12,6 +12,7 @@ public class Ejercicio7 {
         1 1 1 1 1
     */
     public static void main(String[] args) {
+        //inicializo la matriz con 5 columnas y 5 filas
         int[][] matriz = new int[5][5];
        
        //vamos a rellenar el array
