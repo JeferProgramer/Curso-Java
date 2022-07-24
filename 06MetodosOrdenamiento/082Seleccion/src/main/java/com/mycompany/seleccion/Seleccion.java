@@ -14,7 +14,7 @@ public class Seleccion {
         //le pido que digite el numero de elementos que va a tner el arry y lo capturo
         System.out.println("Digite el numero de elementos del arreglo: ");
         numeroElementos = entrada.nextInt();
-        
+        //inicializo el array dependiendo de lo que escriba el usuario
         arreglo = new int[numeroElementos];
         
         System.out.println("Ingrese los datos del arreglo: ");
