@@ -9,6 +9,7 @@ import java.util.Scanner;
 public class Insercion {
 
     public static void main(String[] args) {
+        //declaro scanner y
         Scanner entrada = new Scanner(System.in);
         int[] arreglo;
         int numeroElementos, posicion, memoria;
@@ -22,7 +23,9 @@ public class Insercion {
         for (int i = 0; i < numeroElementos; i++) {
             arreglo[i] = entrada.nextInt();
         }
-        
+        //[4,5,3,2,1]
+        //   |
+        //numeroElementos = 4, posicion = 1, memoria = 4 
         //Insercion
         for (int i = 0; i < numeroElementos; i++) { //Puntero del arreglo
             posicion = i;
