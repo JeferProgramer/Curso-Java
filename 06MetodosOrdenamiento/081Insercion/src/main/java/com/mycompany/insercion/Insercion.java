@@ -23,9 +23,9 @@ public class Insercion {
         for (int i = 0; i < numeroElementos; i++) {
             arreglo[i] = entrada.nextInt();
         }
-        //[4,5,3,2,1]
-        //     |
-        //numeroElementos = 4, posicion = 0, memoria = 4 
+        //[4,3,2,1,5]
+        //         |
+        //numeroElementos = 4, posicion = 3, memoria = 1 , i = 4
         //Insercion
         for (int i = 0; i < numeroElementos; i++) { //Puntero del arreglo
             posicion = i;
