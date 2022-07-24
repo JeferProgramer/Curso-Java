@@ -4,5 +4,11 @@ public class Vehiculo {
     protected String matricula;
     protected String modelo;
 
+    //declarar mis contructor para instanciar los objetos de mi clase
+    public Vehiculo(String matricula, String marca, String modelo){
+        this.matricula = matricula;
+        this.marca = marca;
+        this.modelo = modelo;
+    }
 
 }
