@@ -2,10 +2,7 @@ package com.mycompany.insercion;
 
 import java.util.Scanner;
 
-/**
- *
- * @author alemr
- */
+
 public class Insercion {
 
     public static void main(String[] args) {
