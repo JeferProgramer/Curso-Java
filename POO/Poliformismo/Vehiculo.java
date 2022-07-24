@@ -20,6 +20,8 @@ public class Vehiculo {
     public String getModelo(){
         return modelo;
     }
-    
+    public String mostrarDatos(){
+        return "Matricula : " + matricula + "Marca: " + marca + "Modelo: " + modelo;
+    }
 
 }
