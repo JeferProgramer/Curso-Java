@@ -11,7 +11,7 @@ public class Seleccion {
         Scanner entrada = new Scanner(System.in);
         int[] arreglo;
         int numeroElementos, numeroMenor, memoria;
-        
+        //le pido que digite el numero de elementos que va a tner el arry y lo capturo
         System.out.println("Digite el numero de elementos del arreglo: ");
         numeroElementos = entrada.nextInt();
         
