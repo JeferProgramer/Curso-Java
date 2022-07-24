@@ -20,7 +20,9 @@ public class Binaria {
         inferior = 0;
         superior = 5;   //Cantidad de elementos del arreglo
         i = 0;
-        
+        //[1,2,3,4,5]
+        //       |
+        //inferior = 0 superior = 0 i = 0, mitad = 0, dato = 4, i = 1
         mitad = (inferior + superior) / 2;
         while (inferior<=superior && i<5) {            
             if (arreglo[mitad] == dato) {
