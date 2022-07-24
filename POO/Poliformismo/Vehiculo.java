@@ -10,5 +10,12 @@ public class Vehiculo {
         this.marca = marca;
         this.modelo = modelo;
     }
+    //metodos get
+    public String getMatricula(){
+        return matricula;
+    }
+    public String getMarca(){
+        return marca;
+    }
 
 }
