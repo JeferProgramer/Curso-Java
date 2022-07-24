@@ -3,10 +3,7 @@ package com.mycompany.ejercicio1;
 import java.util.Scanner;
 import javax.swing.JOptionPane;
 
-/**
- *
- * @author alemr
- */
+
 public class Ejercicio1 {
 
     /*
