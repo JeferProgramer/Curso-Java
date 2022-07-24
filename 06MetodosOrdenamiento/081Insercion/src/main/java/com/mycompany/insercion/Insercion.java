@@ -42,7 +42,7 @@ public class Insercion {
         for (int i = 0; i < numeroElementos; i++) {
             System.out.print(arreglo[i]+" ");
         }
-        //lo muestro decreciente
+        //lo muestro decrecientel
         System.out.println("\nArreglo ordenado decreciente: ");
         for (int i = numeroElementos-1; i >= 0; i--){
             System.out.print(arreglo[i]+" ");

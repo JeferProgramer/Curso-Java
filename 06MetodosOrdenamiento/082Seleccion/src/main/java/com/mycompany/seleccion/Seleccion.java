@@ -2,10 +2,7 @@ package com.mycompany.seleccion;
 
 import java.util.Scanner;
 
-/**
- *
- * @author alemr
- */
+
 public class Seleccion {
 
     /**
