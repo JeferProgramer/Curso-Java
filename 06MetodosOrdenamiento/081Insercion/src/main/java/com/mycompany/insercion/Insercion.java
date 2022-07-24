@@ -37,12 +37,12 @@ public class Insercion {
             }
             arreglo[posicion] = memoria;    //Vuelve a colocar en la posicion que le corresponde el dato guardado
         }
-        
+        //lo muestro creciente
         System.out.println("Arreglo ordenado creciente: ");
         for (int i = 0; i < numeroElementos; i++) {
             System.out.print(arreglo[i]+" ");
         }
-        
+        //lo muestro decreciente
         System.out.println("\nArreglo ordenado decreciente: ");
         for (int i = numeroElementos-1; i >= 0; i--){
             System.out.print(arreglo[i]+" ");
