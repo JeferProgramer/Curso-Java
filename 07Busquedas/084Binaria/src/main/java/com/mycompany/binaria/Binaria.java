@@ -2,10 +2,7 @@ package com.mycompany.binaria;
 
 import java.util.Scanner;
 
-/**
- *
- * @author alemr
- */
+
 public class Binaria {
 
     /**
