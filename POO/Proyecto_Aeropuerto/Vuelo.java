@@ -32,4 +32,7 @@ public class Vuelo {
     public String getNumActualPasajero(){
         return nombre;
     }
+    public Pasajero getPasajero(int i){
+        return listaPasajero[i];
+    }
 }
