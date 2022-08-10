@@ -1,4 +1,4 @@
-public class Planta extends serVivo {
+public class Planta extends SerVivo {
     //para indicar que vamos a utilizar un metodo abstracto 
     @Override
     public void alimentarse(){
