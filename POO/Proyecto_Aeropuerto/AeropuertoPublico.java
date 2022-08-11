@@ -10,6 +10,9 @@ public class AeropuertoPublico{
   }
   public AeropuertoPublico(double subvencion, String nombre, String cuidad, String pais){
     super(nombre, cuidad, pais);
-    this.subvencion = subvencion
+    this.subvencion = subvencion;
+  }
+  public double getSubvencion(){
+    return subvencion;
   }
 }
