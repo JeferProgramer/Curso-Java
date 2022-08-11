@@ -37,6 +37,21 @@ public class Aeropuerto{
   public int getNumCompañia{
     return numCompañia;
   }
-  
+  public Compañia getCompañia(int i){
+    return listaCompañias[i];
+  }  
+  public Compañia getCompañia(String nombre){
+    boolean encontrado = false;
+    int i = 0;
+    Compañia c = null;
+    while((!encontrado) && (i<listaCompañias.length)){
+      if(nombre.equals(listaCompañias[i].getNombre())){
+        encontrado = true;
+        c = listaCompañias[i];
+      }
+      i++;
+    }
+    return c;
+  }
 }
 
