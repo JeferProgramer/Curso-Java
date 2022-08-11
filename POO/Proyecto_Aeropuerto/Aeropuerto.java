@@ -12,7 +12,7 @@ public class Aeropuerto{
     this.numCompañia = 0;
   }
   public Aeropuerto(String nombre, String cuidad, String pais, Compañia c[]){
-    this.nombre = nombre;-
+    this.nombre = nombre;
     this.cuidad = cuidad;
     this.pais = pais;
     listaCompañias = c;
