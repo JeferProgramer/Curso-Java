@@ -19,5 +19,10 @@ public class AeropuertoPrivado extends Aeropuerto{
     this.listaEmpresas[numEmpresa] = e;
     numEmpresa++;
   }
-  
+  public String[] getListaEmpresas(){}
+    return listaEmpresas;
+  } 
+  public int getNumEmpresa(){
+    return numEmpresa;
+  }
 }
