@@ -5,6 +5,12 @@ public class Aeropuerto{
   private Compañia listaCompañias[] = new Compañia[10];
   private int numCompañia;
   
+  public Aeropuerto(String nombre, String cuidad, String pais){
+    this.nombre = nombre;
+    this.cuidad = cuidad;
+    this.pais = pais;
+    this.numCompañia = 0;
+  }
   
 }
 
