@@ -25,6 +25,18 @@ public class Aeropuerto{
   public String getNombre(){
     return nombre;
   }
+  public String getCuidad(){
+    return cuidad;
+  }
+  public String getPais(){
+    return pais;
+  }
+  public Compañias[] getListaCompañias(){
+    return listaCompañias;
+  }
+  public int getNumCompañia{
+    return numCompañia;
+  }
   
 }
 
