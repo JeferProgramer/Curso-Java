@@ -22,6 +22,9 @@ public class Aeropuerto{
     listaCompañias[numCompañias] = compañia;
     numCompañia++;
   }
+  public String getNombre(){
+    return nombre;
+  }
   
 }
 
