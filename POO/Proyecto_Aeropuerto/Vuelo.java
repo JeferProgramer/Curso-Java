@@ -29,7 +29,7 @@ public class Vuelo {
     public String getIdentificador(){
         return identificador;
     }
-    public String getNumActualPasajero(){
-        return nombre;
+    public int getNumActualPasajero(){
+        return numActualPasajeros;
     }
 }
