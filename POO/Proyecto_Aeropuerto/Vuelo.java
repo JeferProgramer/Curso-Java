@@ -32,4 +32,20 @@ public class Vuelo {
     public int getNumActualPasajero(){
         return numActualPasajeros;
     }
+    public Pasajero getPasajero(int i){
+        return listaPasajero[i];
+    }
+    public Pasajero getPasajero(String pasaporte){
+        boolean encontrado = false;
+        int i = 0;
+        Pasajero pas = null;
+        while((!encontrado) && (i<listaPasajero.length)){
+            if(pasaporte.equals(listaPasajero[i].getPasaporte())){
+                encontrado = true;
+                pas = listaPasajero[i];
+            }
+            i++;
+        }
+        return pas;
+    }
 }
