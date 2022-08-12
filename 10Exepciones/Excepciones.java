@@ -10,7 +10,14 @@ public class Excepciones{
         System.out.println(fr);
     }
     public void leerArchivo2() throws IOException{
-        leerArchivo();
+        try {
+            leerArchivo();
+        } catch (FileNotFoundException e) {
+           System.out.println("No se ha encontre el archivo");
+        }catch(IOException e){
+            System.out.println("Ha ocurrido una excepcion verificada");
+        }
+
     }
     public static void main(String[] args){
        
