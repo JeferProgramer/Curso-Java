@@ -9,5 +9,11 @@ public class Excepciones{
         FileReader fr = new FileReader(archivo);
         System.out.println(fr);
     }
+    public void leerArchivo2() throws IOException{
+        leerArchivo();
+    }
+    public static void main(String[] args){
+       
+    }
 
 }
