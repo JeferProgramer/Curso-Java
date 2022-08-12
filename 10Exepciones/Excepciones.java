@@ -16,11 +16,14 @@ public class Excepciones{
            System.out.println("No se ha encontre el archivo");
         }catch(IOException e){
             System.out.println("Ha ocurrido una excepcion verificada");
+        }finally{
+            System.out.println("Final");
         }
 
     }
     public static void main(String[] args){
-       
+       Excepciones prueba = new Excepciones();
+       prueba.leerArchivo();
     }
 
 }
