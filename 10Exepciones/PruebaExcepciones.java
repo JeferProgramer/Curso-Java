@@ -2,7 +2,7 @@ import java.util.*;
 public class PruebaExcepciones {
     private int numero;
     private Scanner entrada;
-    public void introducirNumeros(){
+    public void introducirNumeros() throws Excepcion0{
         entrada = new Scanner(System.in);
 
         do{
