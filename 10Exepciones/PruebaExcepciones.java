@@ -9,7 +9,7 @@ public class PruebaExcepciones {
             System.out.println("Digite un numero:");
             numero = entrada.nextInt();
 
-            if(numero ==0){
+            if(numero ==0){//quiero que se produce una excepcion personalizada
                 throw new Excepcion0();
             }
         }while(numero != 0);
