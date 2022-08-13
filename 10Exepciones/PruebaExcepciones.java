@@ -8,6 +8,10 @@ public class PruebaExcepciones {
         do{
             System.out.println("Digite un numero:");
             numero = entrada.nextInt();
+
+            if(numero ==0){
+                throw new Excepcion0();
+            }
         }while(numero != 0);
     }
     public static void main(String[] args){
