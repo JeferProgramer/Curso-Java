@@ -15,6 +15,7 @@ public class PruebaExcepciones {
         }while(numero != 0);
     }
     public static void main(String[] args){
+        PruebaExcepciones prueba = new PruebaExcepciones();
 
     }
 }
