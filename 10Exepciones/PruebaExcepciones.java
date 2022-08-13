@@ -1,3 +1,4 @@
+import java.util.*;
 public class PruebaExcepciones {
     private int numero;
     private Scanner entrada;
