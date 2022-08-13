@@ -14,8 +14,13 @@ public class PruebaExcepciones {
             }
         }while(numero != 0);
     }
-    public static void main(String[] args){
+    public static void main(String[] args) {
         PruebaExcepciones prueba = new PruebaExcepciones();
-
+        try {
+            prueba.introducirNumeros();
+        } catch (Excepcion0 e) {
+            System.out.println("Ha indtroducido el numero 0");
+        }
+        System.out.println("finalizo e programa");
     }
 }

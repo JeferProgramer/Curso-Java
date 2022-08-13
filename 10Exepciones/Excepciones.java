@@ -21,7 +21,7 @@ public class Excepciones{
         }
 
     }
-    public static void main(String[] args){
+    public static void main(String[] args) throws FileNotFoundException{
        Excepciones prueba = new Excepciones();
        prueba.leerArchivo();
     }
